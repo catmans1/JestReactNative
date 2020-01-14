@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 32,
+          "paddingHorizontal": 24,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 24,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Demo write unit test on React Native by JEST
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#444",
+            "fontSize": 18,
+            "fontWeight": "400",
+            "marginTop": 8,
+          }
+        }
+      >
+        Edit 
+        <Text
+          style={
+            Object {
+              "fontWeight": "700",
+            }
+          }
+        >
+          App.js
+        </Text>
+         to change this screen and then come back to see your edits.
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
