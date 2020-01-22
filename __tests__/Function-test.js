@@ -12,6 +12,6 @@ import renderer from 'react-test-renderer';
 
 it('function and state test case', () => {
     let InputData = renderer.create(<InputView />).getInstance();
-    InputData.validation('input@as.co')
+    InputData.validation('input@123.co') //valid email
     expect(InputData.state.isEmail).toEqual(true);
   });
